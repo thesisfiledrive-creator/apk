@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- My Thoughts App Logo: Open book with a thought bubble, brand red on white -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- White background circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,100 m-90,0 a90,90 0 1,0 180,0 a90,90 0 1,0 -180,0"/>
+
+    <!-- Red border ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#9B0000"
+        android:strokeWidth="5"
+        android:pathData="M100,100 m-85,0 a85,85 0 1,0 170,0 a85,85 0 1,0 -170,0"/>
+
+    <!-- Open book left page -->
+    <path
+        android:fillColor="#9B0000"
+        android:pathData="M100,125 L45,115 L45,75 Q45,70 50,69 L100,78 Z"/>
+
+    <!-- Open book right page -->
+    <path
+        android:fillColor="#9B0000"
+        android:pathData="M100,125 L155,115 L155,75 Q155,70 150,69 L100,78 Z"/>
+
+    <!-- Book spine center line -->
+    <path
+        android:fillColor="#6B0000"
+        android:pathData="M98,78 L98,125 L102,125 L102,78 Z"/>
+
+    <!-- Left page lines (text lines) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M55,87 L93,84"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M55,95 L93,93"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M55,103 L93,102"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M55,111 L93,111"/>
+
+    <!-- Right page lines (text lines) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M107,84 L145,87"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M107,93 L145,95"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M107,102 L145,103"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M107,111 L145,111"/>
+
+    <!-- Thought bubble main circle -->
+    <path
+        android:fillColor="#9B0000"
+        android:pathData="M100,58 m-18,0 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0"/>
+
+    <!-- Thought bubble small dots -->
+    <path
+        android:fillColor="#9B0000"
+        android:pathData="M86,65 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"/>
+    <path
+        android:fillColor="#9B0000"
+        android:pathData="M79,71 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0"/>
+
+    <!-- Pencil icon inside thought bubble -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M96,52 L103,52 L106,55 L99,62 L96,62 Z"/>
+    <path
+        android:fillColor="#FFDDAA"
+        android:pathData="M96,62 L99,62 L97.5,65 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M103,52 L106,55 L105,56 L102,53 Z"/>
+
+</vector>

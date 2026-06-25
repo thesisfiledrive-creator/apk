@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Thoughts</string>
+    <string name="action_home">Home</string>
+    <string name="action_share">Share</string>
+    <string name="action_browser">Open in Browser</string>
+    <string name="action_about">About</string>
+</resources>
